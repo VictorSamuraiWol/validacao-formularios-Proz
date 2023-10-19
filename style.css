@@ -39,6 +39,7 @@ label:not(:first-of-type){
 
 input {
   padding: .2rem .5rem;
+  border-radius: 10px;
 }
 
 .helper-text {
@@ -73,12 +74,14 @@ input.error {
   border: solid 2px #992020;
   background-color: #CCBBBB;
   color: #662020;
+  border-radius: 10px;
 }
 
 input.correct {
   background-color: #BBCCBB;
   border: solid 2px #206620;
   color: #206620;
+  border-radius: 10px;
 }
 
 .visible {
