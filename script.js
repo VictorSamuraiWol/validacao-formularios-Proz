@@ -38,7 +38,7 @@ usernameInput.addEventListener('change', function (event) {
         //estilos dinâmicos caso o valor não seja válido
         usernameInput.classList.remove('correct');
         usernameInput.classList.add('error');
-        usernameInput.innerText = 'Seu username deve ter 3 ou mais caracteres';
+        usernameHelper.innerText = 'Seu username deve ter 3 ou mais caracteres';
         usernameHelper.classList.add('visible');
 
     } else {
